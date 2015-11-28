@@ -1,0 +1,19 @@
+ALTER TABLE book DROP PRIMARY KEY ;
+
+DROP TABLE book;
+
+CREATE TABLE book ( 
+	IDBook 	int(11) AUTO_INCREMENT NOT NULL,
+	Title  	varchar(400) NOT NULL,
+	Author 	varchar(200) NOT NULL,
+	Edition	int(11) NOT NULL 
+	)
+ENGINE = InnoDB;
+
+INSERT INTO book(IDBook, Title, Author, Edition) VALUES(1, 'Java How to Program', 'Deitel & Deitel', 2007);
+INSERT INTO book(IDBook, Title, Author, Edition) VALUES(2, 'Patterns of Enterprise Application', 'Martin Fowler', 2002);
+INSERT INTO book(IDBook, Title, Author, Edition) VALUES(3, 'Head First Design Patterns', 'Elisabeth Freeman', 2004);
+INSERT INTO book(IDBook, Title, Author, Edition) VALUES(4, 'Internet & World Wide Web: How to Program', 'Deitel & Deitel', 2007);
+
+ALTER TABLE book ADD PRIMARY KEY (IDBook);
+
