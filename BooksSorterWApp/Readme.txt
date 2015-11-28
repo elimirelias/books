@@ -8,6 +8,10 @@ Desenvolvedor .NET / Android / Java
 +55 (31) 97544-2493
 skype: elimir.lima
 Linkedin: https://www.linkedin.com/in/elimirelias 
+
+Sistema comitado no Github
+https://github.com/elimirelias/books
+
 -----------------------------------*/
 
 TECNOLOGIAS UTILIZADAS
@@ -38,6 +42,13 @@ Microsoft.AspNet.Razor" version="3.0.0" targetFramework="net451"
 Microsoft.AspNet.WebPages" version="3.0.0" targetFramework="net451"
 Microsoft.Web.Infrastructure" version="1.0.0.0" targetFramework="net451"
 Newtonsoft.Json" version="5.0.6" targetFramework="net451"
+
+Diagramas
+(encontram-se na raíz do projeto)
+Caso de Uso (UseCase_BooksSorter.jpg)
+Caso de Teste (Teste Case - BooksStore.pdf)
+Diagrama de Classe UML (Class Diagram Book.jpg)
+Fluxo de Dados (Flowchart books.jpg)
 
 -----------------------------------
 //Script Banco de Dados MySQL
